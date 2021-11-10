@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Service provider",
+  "name": "IISService_ManagementServiceProviderE",
+  "className": "ServiceProviderE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-service-management-service-provider",
+      "modelProjection": "ServiceProviderE"
+    }
+  ]
+}

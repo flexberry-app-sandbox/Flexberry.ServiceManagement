@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Customer request",
+  "name": "IISService_ManagementCustomerRequestE",
+  "className": "CustomerRequestE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-service-management-customer-request",
+      "modelProjection": "CustomerRequestE"
+    }
+  ]
+}

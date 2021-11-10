@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Feedback",
+  "name": "IISService_ManagementFeedbackE",
+  "className": "FeedbackE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-service-management-feedback",
+      "modelProjection": "FeedbackE"
+    }
+  ]
+}

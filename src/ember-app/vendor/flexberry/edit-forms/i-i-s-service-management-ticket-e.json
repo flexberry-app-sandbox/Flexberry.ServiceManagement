@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Ticket",
+  "name": "IISService_ManagementTicketE",
+  "className": "TicketE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-service-management-ticket",
+      "modelProjection": "TicketE"
+    }
+  ]
+}

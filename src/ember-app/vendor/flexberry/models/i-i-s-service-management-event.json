@@ -1,0 +1,146 @@
+﻿{
+  "name": "IISService_ManagementEvent",
+  "modelName": "i-i-s-service-management-event",
+  "className": "Event",
+  "nameSpace": "IIS.Service_Management",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "eventDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "eventType",
+      "type": "i-i-s-service-management-t-event-type",
+      "flexberryType": "tEventType",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "startTime",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "duration",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "serviceProvider",
+      "relatedTo": "i-i-s-service-management-service-provider",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "EventE",
+      "modelName": "i-i-s-service-management-event",
+      "attrs": [
+        {
+          "name": "eventDate",
+          "caption": "Event date",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "eventType",
+          "caption": "Event type",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "startTime",
+          "caption": "Start time",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "duration",
+          "caption": "Duration",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "description",
+          "caption": "Description",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "EventL",
+      "modelName": "i-i-s-service-management-event",
+      "attrs": [
+        {
+          "name": "eventDate",
+          "caption": "Event date",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "eventType",
+          "caption": "Event type",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "startTime",
+          "caption": "Start time",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "duration",
+          "caption": "Duration",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "description",
+          "caption": "Description",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

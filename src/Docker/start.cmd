@@ -1,0 +1,1 @@
+docker-compose -p service_management up -d

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Event",
+  "name": "IISService_ManagementEventE",
+  "className": "EventE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-service-management-event",
+      "modelProjection": "EventE"
+    }
+  ]
+}
